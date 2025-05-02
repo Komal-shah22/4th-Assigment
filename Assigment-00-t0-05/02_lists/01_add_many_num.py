@@ -1,7 +1,10 @@
 def sum_of_numbers(numbers):
     return sum(numbers)
 
-# Example usage:
-num_list = [1, 2, 3, 4, 5]
-result = sum_of_numbers(num_list)
-print("Sum of numbers:", result)
+def main():
+    num_list = [5, 10, 15, 20] 
+    result = sum_of_numbers(num_list)
+    print("Sum of numbers:", result)
+
+if __name__ == '__main__':
+    main()
